@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>figma design</title>
+    <link rel="shortcut icon" href="./Saly-3.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Open+Sans&family=Poppins:wght@300;400&family=Sofia+Sans:ital,wght@1,200&family=Ubuntu:ital@1&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: poppins;
+            text-transform: capitalize;
+        }
+
+        main {
+            height: 900px;
+            display: flex;
+            --cursor: pointer;
+        }
+
+        #section1 {
+            width: 50%;
+            display: grid;
+            place-content: center;
+            background-color: #ecbc76;
+        }
+
+        #section2 {
+            width: 50%;
+            display: grid;
+            place-content: center;
+        }
+
+        #section2>div {
+            width: 556px;
+            height: 744px;
+            box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+            border-radius: 40px;
+            padding: 0 32px 0 32px;
+        }
+
+        #section2>div>:nth-child(1) {
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 32px;
+            line-height: 30px;
+
+        }
+
+        #section2>div>:nth-child(2) {
+            font-size: 55px;
+            font-weight: 500;
+            line-height: 87px;
+        }
+
+        label {
+            font-size: 16px;
+            line-height: 24px;
+            display: block;
+            margin-bottom: 7px;
+        }
+
+        input {
+            width: 100%;
+            border: 1px solid #4285F4;
+            border-radius: 9px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 21px;
+            color: #808080;
+            padding: 19.8px 0 19.8px 25px;
+            margin-bottom: 27px;
+        }
+
+        #password {
+            margin-bottom: 10px;
+        }
+
+        #forgot {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            color: #Ad3113;
+            text-align: right;
+            cursor: var(--cursor);
+        }
+
+        button {
+            width: 100%;
+            background-color: #e48700;
+            border: none;
+            box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+            border-radius: 10px;
+            line-height: 21px;
+            padding: 15.8px 0 15.8px 25px;
+            color: white;
+            line-height: 24px;
+            font-weight: 500px;
+            margin: 25px 0 15px 0;
+            cursor: var(--cursor);
+        }
+
+        #no_account {
+            text-align: right;
+            color: #8D8D8D;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 32px;
+
+        }
+
+        #no_account span {
+            color: #b87514;
+            margin-left: 5px;
+            cursor: var(--cursor);
+        }
+
+        #or {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #B5B5B5;
+            text-align: center;
+            margin-bottom: 21px;
+        }
+
+        #last_img {
+            display: block;
+            margin: auto;
+            cursor: var(--cursor);
+        }
+
+        @media screen and (max-width: 1200px) and (min-width: 700px) {
+            #section1 {
+                display: none;
+            }
+
+            main {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="section1">
+            <img src="https://iili.io/H1wdOnS.png" alt="">
+        </div>
+        <div id="section2">
+            <div>
+                <p>Welcome to masai</p>
+                <p>sign up</p>
+                <label for="#">enter your username or email address </label>
+
+                <input type="text" placeholder="username or email address">
+
+                <label for="#">enter your password </label>
+                <input type="password" placeholder="password" id="password">
+
+                <p id="forgot">forgot password</p>
+
+                <button>Sign in</button>
+
+                <p id="no_account">no account ?<span>sign up</span></p>
+
+                <p id="or">or continue with</p>
+                <img src="https://iili.io/H1w2qSs.png" alt="" id="last_img">
+            </div>
+        </div>
+    </main>
+</body>
+
+<script>
+
+</script>
+
+</html>
