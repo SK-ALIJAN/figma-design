@@ -1,2 +1,2 @@
 # figma-design! <br>
-[Screenshot (177)](https://user-images.githubusercontent.com/106768235/216624931-85a6bd19-2561-44d2-a7ae-44420ef0799f.png)
+(https://user-images.githubusercontent.com/106768235/216625373-16db4322-80cb-4d93-8d5b-b091948a413a.png)
